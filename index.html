@@ -17,8 +17,11 @@
         <![endif]-->
 
     <header>
-        <nav>
-            <ul>
+        <a href="/"><img src="images/logo" alt="Logo Rodelú"></a>
+        <a href="#" id="nav-active" class="button-nav hidden"><img src="images/icon-nav-close.svg"></a>
+        <a href="#" id="nav-inactive" class="button-nav"><img src="images/icon-nav.svg"></a>
+        <nav id="nav-menu" class="hidden">
+            <ul class="nav">
                 <li>
                     <a href="/">Inicio</a>
                 </li>
@@ -42,6 +45,18 @@
                 </li>
             </ul>
         </nav>
+        
+        <script>
+            $("#nav-inactive").click(function(e) {
+                e.stopPropagation();
+                toggleNav();
+            });
+
+            $("#nav-active").click(function(e) {
+                e.stopPropagation();
+                toggleNav();
+            })
+        </script>        
     </header>
 
     <section class="intro-holder">
