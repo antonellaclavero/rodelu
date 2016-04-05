@@ -130,6 +130,7 @@ section#about h1 {
   border-bottom: 1px solid #000;
   padding: 15px 0;
   text-transform: uppercase;
+  letter-spacing: 1px;  
 }
 section#about h2 {
   text-align: center;
@@ -145,8 +146,10 @@ section#about p {
 }
 
 /*section offers*/
+
 section#offers {
-  padding: 15px 10%;
+  padding: 15px 0 0;
+
 }
 section#offers h1 {
   margin: 1em 0 0.5em 0;
@@ -156,7 +159,7 @@ section#offers h1 {
   text-transform: uppercase;
 }
 .container {
-  padding: 4em 8% 1em;
+  padding: 4em 13% 1em;
 }
 .container.even {
   background-color: #000;
@@ -190,13 +193,14 @@ section#offers .offers {
   margin: 0;
 }
 .offer img {
-  width: 350px;
+  width: 400px;
 }
-section#offers article {
-  padding: 30px 0;
+div.menu {
+  padding: 30px 15%;
   text-align: center;
+  background-color: #f6f7f7;
 }
-section#offers h2 {
+div.menu h2 {
   font-size: 18pt;
   line-height: 18pt;
   text-transform: uppercase;
@@ -204,7 +208,7 @@ section#offers h2 {
   margin: 1.5em 0;
   letter-spacing: 1px;
 }
-section#offers a:hover {
+div.menu a:hover {
   color: #858b11;
   border: solid 2px #858b11;
 }
