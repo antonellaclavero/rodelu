@@ -198,7 +198,6 @@ section#offers .offers {
 div.menu {
   padding: 30px 15%;
   text-align: center;
-  background-color: #f6f7f7;
 }
 div.menu h2 {
   font-size: 18pt;
@@ -213,7 +212,59 @@ div.menu a:hover {
   border: solid 2px #858b11;
 }
 
+/*section stores*/
+
+section.card-wrapper {
+  padding: 5% 10%;
+  overflow: auto;
+  background-color: #f6f7f7;
+}
+section.card-wrapper .column {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+}
+section.card-wrapper blockquote.card {
+  border-radius: 0;
+}
+blockquote img {
+  width: 353px;
+  height: 235px;
+  display: block;
+  margin: 0 auto;
+}
+blockquote p {
+  text-align: center;
+  font-size: 1.05em;
+  line-height: 2em;
+  letter-spacing: 1px;
+  margin: 1em 0;
+}
+div.column.last {
+  margin: 0;
+}
 div#map {
-  width: 400px;
-  height: 400px;
+  width: 353px;
+  height: 300px;
+}
+
+/*article delivery*/
+
+article.info-delivery {
+  padding: 30px 0;
+}
+article.info-delivery h2 {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 18pt;
+  line-height: 18pt;
+}
+article.info-delivery img {
+  margin: 0 auto;
+  display: block;
+}
+
+section#products img {
+  margin: 0 auto;
+  display: block;
 }
