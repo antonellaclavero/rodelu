@@ -113,25 +113,35 @@
 
     <section id="stores">
         <h1>Locales y puntos de venta</h1>
-        <ul>
-            <li>
-                <img src="">
-                <p></p>
-            </li>
-            <li>
-                <img src="">
-                <p></p>
-            </li>
-            <li>
-                <img src="">
-                <p></p>
-            </li>
-        </ul>
-        <article>
-            <h1>También puede realizar su pedido a través de:</h1>
-            <a href="">Pedidos ya!</a>
-        </article>
     </section>
+
+    <section class="card-wrapper">
+        <div class="column">
+            <blockquote class="card">
+                <img src="images/local-carrasco.jpg" alt="Foto portada Local Carrasco">
+                <p>Avda.Bolivia 1428 bis<br>
+                   Tel. 2 603 29 29<br>
+                   Horario de atención
+                </p>
+            </blockquote>
+            <blockquote class="card">
+                <div id="map">
+                </div>
+            </blockquote>
+        </div>
+
+                <!--img src="images/local-malvin.jpg" alt="Foto portada Local Malvin">
+                <p></p>
+
+                <img src="images/local-parque-rodo.jpg" alt="Foto portada Local Parque Rodó">
+                <p></p-->
+ 
+    </section>
+
+    <article>
+        <h1>También puede realizar su pedido a través de:</h1>
+        <a href="">Pedidos ya!</a>
+    </article>
 
     <section id="products">
         <h1>Productos de venta en Supermercados</h1>
@@ -151,6 +161,16 @@
         <h1>Contáctenos</h1>
 
     </footer>
+
+    <!--Scripts for google maps-->
+
+    <script src="https://maps.googleapis.com/maps/api/js"async defer>
+    </script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer>
+    </script>
+
 </body>
 </html>
 
