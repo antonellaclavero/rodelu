@@ -93,6 +93,17 @@ nav .button-nav img {
 a.button-nav {
   text-align: right;
 }
+section.hero {
+  padding: 30px 10%;
+}
+section.hero h1 {
+  margin: 1em 0 0.5em 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;  
+}
 
 /*section holder background*/
 
@@ -145,10 +156,6 @@ section#about h2 {
 
 /*section offers*/
 
-section#offers {
-  padding: 15px 0 0;
-
-}
 section#offers h1 {
   margin: 1em 0 0.5em 0;
   border-top: 1px solid #000;
@@ -261,7 +268,6 @@ article.info-delivery img {
   margin: 0 auto;
   display: block;
 }
-
 section#products {
   padding: 30px 15%;
 }
@@ -269,6 +275,14 @@ section#products img {
   margin: 2em auto;
   display: block;
   width: 70%;
+}
+section#products h1 {
+  margin: 1em 0 0.5em 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;  
 }
 section#products h2 {
   text-align: center;
