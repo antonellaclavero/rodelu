@@ -21,6 +21,9 @@ h2 {
 }
 p {
   font-family: 'Roboto', sans-serif;
+  margin: 1em 0;
+  font-size: 14pt;
+  line-height: 18pt;
 }
 a {
   text-decoration: none;
@@ -138,11 +141,6 @@ section#about h2 {
   text-transform: uppercase;
   margin-bottom: 1em;
   letter-spacing: 2.5px;
-}
-section#about p {
-  margin: 1em 0;
-  font-size: 14pt;
-  line-height: 18pt;
 }
 
 /*section offers*/
@@ -264,7 +262,18 @@ article.info-delivery img {
   display: block;
 }
 
-section#products img {
-  margin: 0 auto;
-  display: block;
+section#products {
+  padding: 30px 15%;
 }
+section#products img {
+  margin: 2em auto;
+  display: block;
+  width: 70%;
+}
+section#products h2 {
+  text-align: center;
+}
+section#products p {
+  text-align: left;
+}
+
